@@ -1,0 +1,122 @@
+# depslib dependency file v1.0
+1789802765 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\ente.cpp
+	"Ente.h"
+
+1789802765 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\ente.h
+	"GG.h"
+	<iostream>
+
+1789802885 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\gg.h
+	<SFML/Graphics.hpp>
+	<optional>
+
+1790404888 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\entidades.cpp
+	"Entidades.h"
+	<fstream>
+
+1789802765 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\entidades.h
+	"Ente.h"
+	<iostream>
+
+1789802765 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\main.cpp
+	"Principal.h"
+
+1789802917 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\principal.h
+	"GG.h"
+	"stdio.h"
+	"Jogador.h"
+	"Fase1.h"
+	"Ente.h"
+	"menu.h"
+
+1790457394 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\jogador.h
+	"Personagens.h"
+
+1790455994 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\personagens.h
+	"Entidades.h"
+	"Projetil.h"
+
+1789804699 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\fase1.h
+	"Fases.h"
+
+1789866067 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\fases.h
+	"Ente.h"
+	"GC.h"
+	"Personagens.h"
+	"Listas.h"
+
+1789866965 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\gc.h
+	<optional>
+	<vector>
+	<list>
+	<set>
+
+1790406468 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\listas.h
+	<fstream>
+	<vector>
+
+1789856414 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\menu.h
+	"Ente.h"
+	<string.h>
+	<functional>
+
+1789857682 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\menu.cpp
+	"menu.h"
+	<optional>
+	<iostream>
+	"Principal.h"
+
+1789859233 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\gg.cpp
+	"GG.h"
+	<iostream>
+	"Ente.h"
+	"Entidades.h"
+	"Personagens.h"
+	"Jogador.h"
+	"Fases.h"
+
+1790455994 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\personagens.cpp
+	"Personagens.h"
+	<fstream>
+
+1789867005 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\gc.cpp
+	"GC.h"
+	<iostream>
+	"Ente.h"
+	"Entidades.h"
+	"Personagens.h"
+	"Jogador.h"
+	"Fases.h"
+
+1789805761 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\principal.cpp
+	"Principal.h"
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<filesystem>
+
+1790455994 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\fase1.cpp
+	"Fases.h"
+	"Principal.h"
+	<chrono>
+
+1790457461 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\jogador.cpp
+	"Jogador.h"
+	<fstream>
+
+1790455995 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\fases.cpp
+	"Fases.h"
+	"Principal.h"
+	<chrono>
+
+1789863233 d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\projetil.h
+	"Entidades.h"
+	<iostream>
+
+1790455994 source:d:\documents\trabalhos e arquivos escolares\oficina de integração 1\oficina\projetil.cpp
+	"Projetil.h"
+	<fstream>
+	"Personagens.h"
+	"Jogador.h"
+
