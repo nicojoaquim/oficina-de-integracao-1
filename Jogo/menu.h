@@ -30,7 +30,7 @@ private:
             ~Botao(){
             }
             void setNome(const char* nome_botao){
-                strcpy_s(nome,nome_botao); // Dependendo da versão do compilador e das bibliotecas pode ser necessário trocar para strcpy
+                strcpy(nome,nome_botao); // Dependendo da versão do compilador e das bibliotecas pode ser necessário trocar para strcpy
             }
             void setId(int id_botao){
                 id=id_botao;

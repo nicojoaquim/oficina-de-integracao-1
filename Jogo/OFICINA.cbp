@@ -18,6 +18,7 @@
 					<Add library="sfml-graphics" />
 					<Add library="sfml-window" />
 					<Add library="sfml-system" />
+					<Add library="curl" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -33,16 +34,22 @@
 					<Add library="sfml-graphics" />
 					<Add library="sfml-window" />
 					<Add library="sfml-system" />
+					<Add library="curl" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++17" />
+			<Add directory="/opt/sfml2/include" />
+			<Add directory="/usr/include" />
 		</Compiler>
 		<Linker>
 			<Add library="sfml-graphics" />
 			<Add library="sfml-window" />
 			<Add library="sfml-system" />
+			<Add library="curl" />
+			<Add directory="/opt/sfml2/lib" />
 		</Linker>
 		<Unit filename="Ente.cpp" />
 		<Unit filename="Ente.h" />
@@ -65,6 +72,8 @@
 		<Unit filename="Principal.h" />
 		<Unit filename="Projetil.cpp" />
 		<Unit filename="Projetil.h" />
+		<Unit filename="esp32.cpp" />
+		<Unit filename="esp32.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.cpp" />
 		<Unit filename="menu.h" />

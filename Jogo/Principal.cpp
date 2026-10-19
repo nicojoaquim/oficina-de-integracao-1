@@ -113,7 +113,7 @@ void Jogo::recuperar() {
         fase = std::stoi(linha.substr(5));
 	} else {
         std::cout << "Erro ao carregar a fase. Linha muito curta. " << std::endl;
-	}
+	}ax
 
 	if (fase == -1) { fase = 0; }
 	std::getline(arquivo, linha);

@@ -47,6 +47,12 @@ void GerenciadorColisoes::tratarColisoesJogsChao() {
         if (pJog1->getx() > 1280 - pJog1->getSizex()) {
             pJog1->setPosition(1280 - pJog1->getSizex(), pJog1->gety());
         }
+        if (pJog1->gety() < 0) {
+            pJog1->setPosition(pJog1->getx(), 0);
+        }
+        if (pJog1->gety() > 720 - pJog1->getSizey()) {
+            pJog1->setPosition(pJog1->getx(), 720 - pJog1->getSizey());
+        }
     }
 }
 /*

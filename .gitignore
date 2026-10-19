@@ -1,4 +1,4 @@
-Jogo/obj
-Jogo/bin
-.old
-.ignore
+Jogo/obj/
+Jogo/bin/
+*.old
+*.ignore
